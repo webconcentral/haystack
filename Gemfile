@@ -16,14 +16,14 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'puma'
 
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+group :development do
+  gem 'capistrano', '~> 3.1.0', require: false
+  gem 'capistrano-bundler', '1.1.1', require: false
+  gem 'capistrano-rails', '1.1.1', require: false
+  gem 'capistrano3-puma', require: false
+end
 
 group :development, :test do
   gem 'byebug'

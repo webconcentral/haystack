@@ -17,5 +17,5 @@ test:
 production:
   <<: *default
   database: haystack_production
-  username: haystack
+  username: deploy
   password: <%= ENV['HAYSTACK_DATABASE_PASSWORD'] %>
