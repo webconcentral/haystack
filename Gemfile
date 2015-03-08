@@ -23,6 +23,9 @@ group :development do
   gem 'capistrano-bundler', '1.1.1', require: false
   gem 'capistrano-rails', '1.1.1', require: false
   gem 'capistrano3-puma', require: false
+  gem 'thin'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :development, :test do

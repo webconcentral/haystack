@@ -19,7 +19,7 @@ $contact-background: #644d52;
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "karma", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     position: relative;
 }
 
@@ -221,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "karma", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: $btn-text;
@@ -304,10 +304,11 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-family: "karma",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
-    font-weight: 700;
+    // font-weight: 700;
+    font-weight: bold;
     line-height: 40px;
 }
 
@@ -327,10 +328,11 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-transform: capitalize;
+        font-family: "karma", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 50px;
-        font-weight: 700;
+        // font-weight: 700;
+        font-weight: bold;
         line-height: 50px;
     }
 }
@@ -345,13 +347,29 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+.bullets{
+    list-style-position: inside;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "karma", "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
-    font-weight: 400;
+    // font-weight: 400;
+    font-weight: bold;
+}
+
+.section-subheading-normal{
+    padding: 5px;
+    color: black;
+    margin: 25px !important;
+    font-weight: normal;
+}
+
+.section-subheading-caption{
+    margin: 0 !important;
 }
 
 @media(min-width:768px) {
@@ -927,6 +945,10 @@ body {
   bottom: -135px;
   left: 50%;
   margin-left: -55px;
+}
+
+#testimonials{
+    padding: 20px 0 !important;
 }
 
 blockquote p.clients-words {

@@ -9,6 +9,10 @@ default: &default
 development:
   <<: *default
   database: haystack_development
+  host: localhost
+  username: dev
+  password: '123'
+  port: 5432
 
 test:
   <<: *default
