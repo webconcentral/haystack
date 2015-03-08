@@ -295,7 +295,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
@@ -319,7 +319,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 0px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
@@ -959,4 +959,38 @@ span.clients-name {
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+
+.more-toggle{
+    background: #FFC000 none 0 0;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    font-size: 1.2em !important;
+}
+
+.main-header {
+    height: 603px !important;
+}
+
+section#services{
+    padding-top: 0px !important;
+    padding-bottom: 120px !important;
+    margin-top: 20px !important;
+}
+
+section#testimonials{
+    margin-top: -65px;
+}
+
+.seperator{
+    height: 1px;
+    background: #333;
+    color: #333;
+    margin: auto;
+    width: 20%;
+    margin-top: -80px;
+}
+
+.bullets-save {
+    margin-left:-40px;
 }
