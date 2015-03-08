@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'contact' => 'pages#contact'
+  post '/contact' => 'pages#contact', as: "contact_us"
   
   root 'pages#index'
 end

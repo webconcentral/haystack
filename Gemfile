@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'puma'
+gem 'delayed_job_active_record'
 
 group :development do
   gem 'capistrano', '~> 3.1.0', require: false
