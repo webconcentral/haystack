@@ -10,7 +10,8 @@ class PagesController < ApplicationController
   			ticket = Ticket.new(ticket_params)
 
         if ticket.save
-    			ContactMailer.delay.send_message(ticket.id)
+          # ContactMailer.delay.send_message(ticket.id)
+    			ContactMailer.send_message(ticket.id).deliver
 
           render :json => { "success" => "true"}
         else
