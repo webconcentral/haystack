@@ -1,7 +1,6 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
 
-require 'capistrano/delayed-job'
 
 set :application, 'haystack'
 set :repo_url, 'git@github.com:webconcentral/haystack.git'
