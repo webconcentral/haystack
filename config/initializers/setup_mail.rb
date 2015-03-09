@@ -1,11 +1,11 @@
 ActionMailer::Base.smtp_settings = {
   :address              => "smtp.emailsrvr.com",
   :port                 => 587,
-  :domain               => "http://haystackleads.com/",
   :user_name            => "leads@haystackleads.com",
   :password             => "hayman",
   :authentication       => "plain",
-  :enable_starttls_auto => true
+  :enable_starttls_auto => false,
+  :openssl_verify_mode => 'none'
 }
 
 

@@ -20,6 +20,7 @@ gem 'puma'
 gem 'delayed_job_active_record'
 
 group :development do
+  gem 'capistrano3-delayed-job', '~> 1.0'
   gem 'capistrano', '~> 3.1.0', require: false
   gem 'capistrano-bundler', '1.1.1', require: false
   gem 'capistrano-rails', '1.1.1', require: false

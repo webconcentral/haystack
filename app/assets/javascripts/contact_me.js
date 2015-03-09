@@ -17,17 +17,11 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
             $.ajax({
                 url: "/contact.json",
                 type: "POST",
-                datatype : "json",
-                contentType: "application/json; charset=utf-8",
-                data: {
-                    // name: name,
-                    // phone: phone,
-                    // email: email,
-                    // message: message
-                },
+                data: $form.serialize(),
                 cache: false,
                 success: function() {
                     // Success message
