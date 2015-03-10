@@ -23,6 +23,6 @@ class PagesController < ApplicationController
 
   private
     def ticket_params
-      params.require(:ticket).permit(:id, :name, :email, :description, :message, :phone)
+      params.require(:ticket).permit(:id, :name, :email, :description, :message, :phone, :company)
     end
 end
