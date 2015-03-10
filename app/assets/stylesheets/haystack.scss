@@ -380,7 +380,7 @@ section h3.section-subheading {
 
 .service-heading {
     margin: 15px 0;
-    text-transform: none;
+    text-transform: uppercase;
 }
 
 #portfolio .portfolio-item {
@@ -712,7 +712,8 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    // height: 236px;
+    height: 322.5px;
 }
 
 section#contact .form-control:focus {
@@ -982,6 +983,10 @@ section#testimonials{
     margin-top: -65px;
 }
 
+#pricing {
+  padding-top: 30px !important;
+}
+
 .seperator{
     height: 1px;
     background: #333;
@@ -992,10 +997,36 @@ section#testimonials{
 }
 
 .bullets-save {
-    margin-left:-40px;
+    margin-left:40px;
 }
 
 .short-brief {
   margin: auto;
   width: 88.88888%;
+}
+
+.short-brief {
+  text-transform: uppercase !important;
+}
+
+.pricing-title .pricing-list-heading{
+  font-weight: bold;
+}
+
+.pricing-title{
+  margin-bottom: 50px;
+}
+
+.pricing-list{
+  list-style: none;
+  padding-left: 0px !important;
+  margin-left: 0px;
+
+  li{
+    list-style: none;
+  }
+}
+
+.pricing-list-last{
+  margin-top: 30px;
 }
