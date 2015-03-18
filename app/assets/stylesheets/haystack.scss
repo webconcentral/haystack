@@ -279,7 +279,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: $btn-text;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-image: image-url("header.jpg");
     background-position: center center;
     background-repeat: none;
@@ -970,7 +970,8 @@ span.clients-name {
 }
 
 .main-header {
-    height: 603px !important;
+    // height: 603px !important;
+    height: 290px !important;
 }
 
 section#services{
@@ -1029,4 +1030,17 @@ section#testimonials{
 
 .pricing-list-last{
   margin-top: 30px;
+}
+
+.intro-text{
+    margin-top: -75px;
+}
+
+.intro-top-left{
+    float:left;
+    background: green;
+    color: white;
+    padding: 5px 47px;
+    margin-top:-155px;
+    margin-left: -44px;
 }
