@@ -17,6 +17,10 @@ $link-active: #fec503;
 $btn-text: #fff;
 $contact-background: #644d52;
 
+body, html, div, ul, li, b, span, input, form, a, h1, h2, h3, h4, h5, h6 {
+    font-family: "Neuton", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
 body {
     overflow-x: hidden;
     font-family: "karma", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
