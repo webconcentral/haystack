@@ -291,7 +291,7 @@ header {
 
 header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 285px;
 }
 
 header .intro-text .intro-lead-in {
@@ -314,7 +314,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 285px;
         padding-bottom: 200px;
     }
 
@@ -971,7 +971,7 @@ span.clients-name {
 
 .main-header {
     // height: 603px !important;
-    height: 290px !important;
+    height: 360px !important;
 }
 
 section#services{
@@ -1033,7 +1033,7 @@ section#testimonials{
 }
 
 .intro-text{
-    margin-top: -75px;
+    // margin-top: -75px;
 }
 
 .intro-top-left{
@@ -1041,6 +1041,10 @@ section#testimonials{
     background: green;
     color: white;
     padding: 5px 47px;
-    margin-top:-155px;
-    margin-left: -44px;
+    // margin-top:-155px;
+    // margin-left: -44px;
+}
+
+.left-bullets ul{
+    padding-left: 15px !important;
 }
