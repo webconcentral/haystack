@@ -16,6 +16,7 @@ $placeholder-text: #bbb;
 $link-active: #fec503;
 $btn-text: #fff;
 $contact-background: #644d52;
+$default-font: 'Open Sans', "karma", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 body, html, div, ul, li, b, span, input, form, a, h1, h2, h3, h4, h5, h6 {
     font-family: "Neuton", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif !important;
@@ -69,7 +70,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -88,7 +89,7 @@ h6 {
 
 .btn-primary {
     border-color: $brand-primary;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $btn-text;
@@ -139,7 +140,7 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: $brand-primary;
     border-radius: 3px;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -224,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
-    text-transform: uppercase;
+    text-transform: none;
     font-family: "karma", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
@@ -384,7 +385,7 @@ section h3.section-subheading {
 
 .service-heading {
     margin: 15px 0;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 #portfolio .portfolio-item {
@@ -726,28 +727,28 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $placeholder-text;
 }
 
 section#contact:-moz-placeholder {
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $placeholder-text;
 }
 
 section#contact::-moz-placeholder {
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $placeholder-text;
 }
 
 section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $placeholder-text;
@@ -763,7 +764,7 @@ footer {
 }
 
 footer span.copyright {
-    text-transform: uppercase;
+    text-transform: none;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
@@ -771,7 +772,7 @@ footer span.copyright {
 
 footer ul.quicklinks {
     margin-bottom: 0;
-    text-transform: uppercase;
+    text-transform: none;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
@@ -1011,7 +1012,7 @@ section#testimonials{
 }
 
 .short-brief {
-  text-transform: uppercase !important;
+  text-transform: none !important;
 }
 
 .pricing-title .pricing-list-heading{
@@ -1061,4 +1062,14 @@ section#testimonials{
 
 li{
     font-size: 1.2em;
+}
+
+#services, #testimonials, #pricing {
+  div, p, ul, li, h1, h2, h3, h4, h5, h6{
+    font-family: $default-font !important;
+  }
+}
+
+.bullets-save li, .bullets-save{
+  font-style: normal !important;
 }
