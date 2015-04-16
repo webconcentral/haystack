@@ -19,13 +19,15 @@ $contact-background: #644d52;
 $default-font: 'Open Sans', "karma", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 body, html, div, ul, li, b, span, input, form, a, h1, h2, h3, h4, h5, h6 {
-    font-family: "Neuton", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    // font-family: "Neuton", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-family: $default-font;
 }
 
 body {
     overflow-x: hidden;
-    font-family: "karma", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    // font-family: "karma", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     position: relative;
+    font-family: $default-font;
 }
 
 .text-muted {
@@ -71,7 +73,8 @@ h4,
 h5,
 h6 {
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
     font-weight: 700;
 }
 
@@ -90,7 +93,8 @@ h6 {
 .btn-primary {
     border-color: $brand-primary;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
     font-weight: 700;
     color: $btn-text;
     background-color: $brand-primary;
@@ -141,7 +145,8 @@ fieldset[disabled] .btn-primary.active {
     border-color: $brand-primary;
     border-radius: 3px;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: $btn-text;
@@ -194,7 +199,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: $default-font;
+    // font-family: "Helvetica Neue",Helvetica,Arial,cursive;
     color: $brand-primary;
     font-weight: 700;
 }
@@ -226,7 +232,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: none;
-    font-family: "karma", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: "karma", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: $btn-text;
@@ -301,7 +308,8 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 0px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -310,7 +318,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: none;
-    font-family: "karma",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: "karma",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
     // font-weight: 700;
     font-weight: bold;
@@ -325,7 +334,8 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 0px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: $default-font;
+        // font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -334,7 +344,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: none;
-        font-family: "karma", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: $default-font;
+        // font-family: "karma", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 50px;
         // font-weight: 700;
         font-weight: bold;
@@ -359,7 +370,8 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "karma", "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: "karma", "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     // font-weight: 400;
@@ -450,7 +462,8 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -728,28 +741,32 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $placeholder-text;
 }
 
 section#contact:-moz-placeholder {
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $placeholder-text;
 }
 
 section#contact::-moz-placeholder {
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $placeholder-text;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: $placeholder-text;
 }
@@ -766,7 +783,8 @@ footer {
 footer span.copyright {
     text-transform: none;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -774,7 +792,8 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: none;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 
     a {
@@ -837,7 +856,8 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $default-font;
+    // font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
